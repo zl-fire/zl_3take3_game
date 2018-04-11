@@ -71,3 +71,5 @@ let getSuccessResult=(player,board)=>{
  return results;
  
 }
+
+module.exports=getSuccessResult;

@@ -1,0 +1,29 @@
+{
+  "name": "zl_3take3_game",
+  "version": "0.0.0",
+  "description": "一个3*3的#字游戏算法",
+  "main": "Grame.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha ./test/Grame.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangluzhanglu/zl_3take3_game.git"
+  },
+  "keywords": [
+    "算法"
+  ],
+  "author": "张路",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhangluzhanglu/zl_3take3_game/issues"
+  },
+  "homepage": "https://github.com/zhangluzhanglu/zl_3take3_game#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.5"
+  }
+}
