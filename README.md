@@ -163,6 +163,18 @@ let getSuccessResult=(player,board)=>{
 </code>
 </pre> 
 
+<h1>使用方式</h1>
+
+这个算法我已经publish到npm里面了，使用方式如下：
+
+通过npm安装
+    如果你仅是想看下这个算法，而不想安装尽你的算法中，那么请按照以下方式操作：
+    1. 在你的电脑上建立一个空的目录，然后在此目录下打开命令行窗口。
+    2. 在窗口中执行 npm init 创建一个package.json文件。
+    3. 在窗口中执行 npm install zl_3take3_game --save 将这个算法安装到本地。
+    4. 通过窗口定位到node_modules\zl_3take3_game目录下，
+    5. 在窗口中执行 npm install 安装此算法进行单元测试时的所需的依赖包"chai",
+
 <h1>结束</h1>
 
 
