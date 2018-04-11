@@ -152,23 +152,16 @@ let getSuccessResult=(player,board)=>{
 </pre>
 <hr/>
 <h1>测试结果</h1>
-一共测试了多组数据，都无误，这里取一组测试结果展现。
+此处使用的mocha进行的单元测试，有四个测试用例，无误。
 <pre>
 </code>
-let board3=
-[
-  ['x', 'o', 'o'],
-  ['x', 'x', 'e'],
-  ['e', 'o', 'e'] 
-];
-getSuccessResult('x',board3);
+ getSuccessResult算法测试
+   √ ('x' testData1)结果应为==>[ [2, 2], [0, 1], [0, 2] ]
+   √ ('x',testData2)结果应为==>[ [ 1, 2 ], [ 2, 0 ], [ 2, 2 ] ]
+   √ ('x',testData3)结果应为==>[]
+   √ ('o',testData4)结果应为==>[]
 </code>
-</pre>
-
-<b>返回值</b>
-
-[[1, 2],[2,0],[2,2]]
- 
+</pre> 
 
 <h1>结束</h1>
 
