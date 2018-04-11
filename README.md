@@ -167,10 +167,10 @@ let getSuccessResult=(player,board)=>{
 
 这个算法我已经publish到npm里面了，使用方式如下：
 
+<b>如果你仅是想看下这个算法，而不想安装到你的项目中，那么请按照以下方式操作</b>
+
 <pre>
-通过npm安装
-    如果你仅是想看下这个算法，而不想安装到你的项目中，那么请按照以下方式操作：
-    
+       
     1. 在你的电脑上建立一个空的目录，然后在此目录下打开命令行窗口.
     
     2. 在窗口中执行 npm init 创建一个package.json文件.
@@ -188,6 +188,58 @@ let getSuccessResult=(player,board)=>{
     8. 查看完后，你如果想卸载初始化时安装的模块chai与mocha，只需要执行命令npm run uninstall即可
     
 </pre>
+<hr/>
+<b>如果你想将此算法使用在你的项目中，那么请按照以下方式操作</b>
+
+<pre>
+       
+    1. 执行 npm install zl_3take3_game --save-dev 将这个算法安装到本地.
+    
+    2. 在你想使用的地方应用此算法即可，如：import game from 'zl_3take3_game';
+    
+    3. 直接使用此算法,如下:
+      let testData1=[  
+        ['o', 'e', 'e'],
+        ['o', 'x', 'o'],
+        ['x', 'x', 'e'] 
+      ]; 
+      console.info(game('x',testData1));//返回[ [ 2, 2 ], [ 0, 1 ], [ 0, 2 ] ]
+      
+      
+完成代码如下：
+
+
+import React, { Component } from 'react';
+import game from 'zl_3take3_game';
+import logo from './logo.svg';
+import './App.css';
+//测试数据一棋为'x'
+  let testData1=[  
+        ['o', 'e', 'e'],
+        ['o', 'x', 'o'],
+        ['x', 'x', 'e'] 
+      ]; 
+class App extends Component {
+  render() {
+   console.info(game('x',testData1));
+    return (
+      <div className="App">
+        <header className="App-header">
+          <img src={logo} className="App-logo" alt="logo" />
+          <h1 className="App-title">Welcome to React</h1>
+        </header>
+        <p className="App-intro">
+          To get started, edit <code>src/App.js</code> and save to reload.
+        </p>
+      </div>
+    );
+  }
+}
+
+export default App;
+
+</pre>
+
 <h1>结束</h1>
 
 
