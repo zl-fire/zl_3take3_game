@@ -167,6 +167,7 @@ let getSuccessResult=(player,board)=>{
 
 这个算法我已经publish到npm里面了，使用方式如下：
 
+<pre>
 通过npm安装
     如果你仅是想看下这个算法，而不想安装尽你的算法中，那么请按照以下方式操作：
     1. 在你的电脑上建立一个空的目录，然后在此目录下打开命令行窗口。
@@ -176,7 +177,7 @@ let getSuccessResult=(player,board)=>{
     5. 在窗口中执行 npm run init 进行初始化（实际上就是安装下单元测试的两个模块chai与mocha）
     6. 然后执行命令npm test就可以查看单元测试效果
     7. 查看完后，你如果想卸载初始化时安装的模块chai与mocha，只需要执行命令npm run uninstall即可
-
+</pre>
 <h1>结束</h1>
 
 
