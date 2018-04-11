@@ -159,7 +159,7 @@ let board3=
   ['x', 'o', 'o'],
   ['x', 'x', 'e'],
   ['e', 'o', 'e'] 
- ];
+];
 getSuccessResult('x',board3);
 </code>
 </pre>
