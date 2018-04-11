@@ -204,39 +204,6 @@ let getSuccessResult=(player,board)=>{
         ['x', 'x', 'e'] 
       ]; 
       console.info(game('x',testData1));//返回[ [ 2, 2 ], [ 0, 1 ], [ 0, 2 ] ]
-      
-      
-完成代码如下：
-
-
-import React, { Component } from 'react';
-import game from 'zl_3take3_game';
-import logo from './logo.svg';
-import './App.css';
-//测试数据一棋为'x'
-  let testData1=[  
-        ['o', 'e', 'e'],
-        ['o', 'x', 'o'],
-        ['x', 'x', 'e'] 
-      ]; 
-class App extends Component {
-  render() {
-   console.info(game('x',testData1));
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
-    );
-  }
-}
-
-export default App;
 
 </pre>
 
