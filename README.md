@@ -152,6 +152,7 @@ let getSuccessResult=(player,board)=>{
 </pre>
 <hr/>
 <h1>测试结果</h1>
+一共测试了多组数据，都无误，这里取一组测试结果展现。
 <pre>
 </code>
 let board3=
