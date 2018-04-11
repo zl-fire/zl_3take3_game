@@ -1,13 +1,16 @@
 {
   "name": "zl_3take3_game",
-  "version": "0.0.0",
-  "description": "一个3*3的#字游戏算法",
+  "version": "0.0.3",
+  "description": "一个3*3的#字游戏算法,添加了些脚本命令，添加了查看算法代码的脚本命令",
   "main": "Grame.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "mocha ./test/Grame.test.js"
+    "init": "npm install mocha -g && npm install chai --save-dev",
+	"show":"cat Grame.js",
+    "test": "mocha",
+    "uninstall": "npm uninstall mocha -g && npm uninstall chai --save-dev"
   },
   "repository": {
     "type": "git",
@@ -23,7 +26,6 @@
   },
   "homepage": "https://github.com/zhangluzhanglu/zl_3take3_game#readme",
   "devDependencies": {
-    "chai": "^4.1.2",
-    "mocha": "^5.0.5"
+    "chai": "^4.1.2"
   }
 }
