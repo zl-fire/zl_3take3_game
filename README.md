@@ -99,7 +99,7 @@ someFunction(
 
 <h1>函数实现</h1>
 
-<pre>
+<pre style="border:1px solid blue;">
 <code>
 //传入参数为棋手与棋盘，棋手为x或o表示，棋盘已一个二维数组表示
 
