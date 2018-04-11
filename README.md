@@ -169,12 +169,12 @@ let getSuccessResult=(player,board)=>{
 
 <pre>
 通过npm安装
-    如果你仅是想看下这个算法，而不想安装尽你的算法中，那么请按照以下方式操作：
+    如果你仅是想看下这个算法，而不想安装到你的项目中，那么请按照以下方式操作：
     1. 在你的电脑上建立一个空的目录，然后在此目录下打开命令行窗口。
     2. 在窗口中执行 npm init 创建一个package.json文件。
     3. 在窗口中执行 npm install zl_3take3_game --save-dev 将这个算法安装到本地。
     4. 通过窗口定位到node_modules\zl_3take3_game目录下，
-    5. 在窗口中执行 npm run init 进行初始化（实际上就是安装下单元测试的两个模块chai与mocha）
+    5. 在窗口中执行 npm run init 进行初始化（实际上就是安装下单元测试的两个依赖模块chai与mocha）
     6. 然后执行命令npm test就可以查看单元测试效果
     7. 查看完后，你如果想卸载初始化时安装的模块chai与mocha，只需要执行命令npm run uninstall即可
 </pre>
