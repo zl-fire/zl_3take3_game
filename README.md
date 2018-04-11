@@ -151,6 +151,21 @@ let getSuccessResult=(player,board)=>{
 </code>
 </pre>
 <hr/>
+<h1>测试结果</h1>
+<pre>
+</code>
+let board3=[ 
+  ['x', 'o', 'o'],
+
+  ['x', 'x', 'e'],
+
+  ['e', 'o', 'e'] ];
+getSuccessResult('x',board3);
+<b>返回值</b>
+[[1, 2],[2,0],[2,2]]
+ 
+</code>
+</pre>
 <h1>结束</h1>
 
 
