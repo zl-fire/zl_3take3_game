@@ -151,5 +151,6 @@ let getSuccessResult=(player,board)=>{
 </code>
 </pre>
 <hr/>
+<h1>结束</h1>
 
 
