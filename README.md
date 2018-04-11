@@ -135,7 +135,6 @@ let getSuccessResult=(player,board)=>{
 	   //获取每条胜利路径中每个点的坐标
 	   let x=successWays[i][j][0];
 	   let y=successWays[i][j][1];
-	   
 	   //开始具体的判断：判断当前坐标是否已经有棋手落子
 	   if(board[x][y]==player) res++; //,若有，标志变量res就加1
 	   else{
