@@ -8,7 +8,7 @@
   },
   "scripts": {
     "init": "npm install mocha -g && npm install chai --save-dev",
-	"show":"cat Grame.js",
+    "show": "cat Grame.js",
     "test": "mocha",
     "uninstall": "npm uninstall mocha -g && npm uninstall chai --save-dev"
   },
