@@ -112,8 +112,10 @@ someFunction(
 
 //传入参数为棋手与棋盘，棋手为x或o表示，棋盘已一个二维数组表示
 
-let getSuccessResult=(player,board)=>{  
- successWays=[          //声明一个三维数组来存储所有可能的胜利结果：共8种， 
+'use strict';//默认使用严格模式
+
+let getSuccessResult=(player,board)=>{  
+ let successWays=[          //声明一个三维数组来存储所有可能的胜利结果：共8种， 
  [[0,0],[0,1],[0,2]],  //横三胜利路径坐标：3种
  [[1,0],[1,1],[1,2]],
  [[2,0],[2,1],[2,2]],
